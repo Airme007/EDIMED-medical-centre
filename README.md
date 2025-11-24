@@ -18,16 +18,26 @@ EDIMED Medical Centre has been serving the community for over 12 years, offering
 - **Contact Information**: Easy access to our location and contact details
 - **Modern UI**: Built with shadcn/ui components and Tailwind CSS for a professional appearance
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- **Frontend Framework**: React 18
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui (Radix UI primitives)
-- **Routing**: React Router DOM
-- **Forms**: React Hook Form with Zod validation
-- **Icons**: Lucide React
-- **Email Service**: EmailJS for contact forms
+### Frontend Framework
+- **React 18.3.1** - Modern JavaScript library for building user interfaces
+- **Vite 5.4.19** - Fast build tool and development server
+
+### Styling & UI
+- **Tailwind CSS 3.4.17** - Utility-first CSS framework
+- **shadcn/ui** - Modern UI components built on Radix UI
+- **Lucide React** - Beautiful icon library
+
+### Development Tools
+- **ESLint** - Code linting and formatting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixing
+
+### External Services
+- **EmailJS** - Email service for contact forms
+- **Google Maps** - Location embedding
+- **Google Fonts** - Typography (Inter & Merriweather)
 
 ## Getting Started
 
@@ -68,6 +78,50 @@ npm run dev
 - `npm run lint` - Run ESLint for code linting
 - `npm run preview` - Preview the production build locally
 
+## 📞 Contact Information
+
+**EDIMED Medical Centre**
+- **Address**: New Stadium Road, Ikot Ekpene, Akwa Ibom State, Nigeria
+- **Phone**: +234 902 972 8060
+- **Email**: info@edimedcentre.com
+- **Emergency**: 24/7 Available
+
+## 🔧 Configuration
+
+### EmailJS Setup
+To enable contact form functionality:
+
+1. Create an EmailJS account at [emailjs.com](https://www.emailjs.com)
+2. Set up an email service and template
+3. Update the configuration in `src/pages/Contact.jsx`:
+   ```javascript
+   const serviceId = "your_service_id";
+   const templateId = "your_template_id";
+   const publicKey = "your_public_key";
+   ```
+
+### Environment Variables
+Create a `.env` file for sensitive configuration:
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+- **Desktop**: 1200px and above
+- **Tablet**: 768px to 1199px
+- **Mobile**: Below 768px
+
+## 🌐 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
 ## Project Structure
 
 ```
@@ -88,18 +142,38 @@ src/
 └── assets/             # Static assets
 ```
 
-## Contributing
+## 🤝 Contributing
+
+We welcome contributions to improve EDIMED Medical Centre's online presence!
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📄 License
 
-This project is private and proprietary to EDIMED Medical Centre.
+This project is proprietary software for EDIMED Medical Centre. All rights reserved.
 
-## Contact
+## 🙏 Acknowledgments
 
-For inquiries about the website or medical services, please visit our contact page or reach out directly to the medical centre.
+- **shadcn/ui** for beautiful UI components
+- **Tailwind CSS** for utility-first styling
+- **Lucide** for consistent iconography
+- **EmailJS** for seamless email integration
+- **Google Maps** for location services
+
+## 📊 Project Stats
+
+- **React Components**: 50+ reusable components
+- **Pages**: 5 main pages + 404 page
+- **UI Components**: Complete shadcn/ui integration
+- **Performance**: Optimized with Vite for fast loading
+- **Accessibility**: WCAG compliant design
+
+---
+
+**Built with ❤️ for EDIMED Medical Centre - Your Trusted Community Healthcare Partner**
+
+*For technical support or inquiries, please contact our development team.*

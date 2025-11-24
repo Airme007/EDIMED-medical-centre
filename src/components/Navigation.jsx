@@ -86,7 +86,7 @@ const Navigation = () => {
                 </Link>
               ))}
               <a
-                href="tel:+1234567890"
+                href="tel:+2349029728060"
                 className="flex items-center text-primary hover:text-primary/80 transition-smooth"
               >
                 <Phone className="w-4 h-4 mr-2" />

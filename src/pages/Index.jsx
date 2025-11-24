@@ -165,13 +165,14 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button
-              size="lg"
-              onClick={() => window.location.href = '/services'}
-              className="gradient-hero"
-            >
-              View All Services
-            </Button>
+            <Link to="/services">
+              <Button
+                size="lg"
+                className="gradient-hero"
+              >
+                View All Services
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

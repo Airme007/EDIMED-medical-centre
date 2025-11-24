@@ -174,7 +174,7 @@ const Contact = () => {
                         <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                         <p className="text-muted-foreground">
                           <a href="tel:+2349029728060" className="hover:text-primary transition-smooth">+234 902 972 8060</a><br />
-                          <span className="text-destructive font-medium">Emergency: 24/7 Available</span>
+                          <span className="text-destructive font-medium">24/7 Available</span>
                         </p>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Email</h3>
                         <p className="text-muted-foreground">
-                          <a href="mailto:itsemmanuelade@gmail.com" className="hover:text-primary transition-smooth">itsemmanuelade@gmail.com</a>
+                          <a href="mailto:itsemmanuelade@gmail.com" className="hover:text-primary transition-smooth">nsikakudeme@gmail.com</a>
                         </p>
                       </div>
                     </div>
@@ -206,10 +206,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-2">Opening Hours</h3>
                         <div className="text-sm text-muted-foreground space-y-1">
-                          <p><span className="font-medium">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
+                          {/* <p><span className="font-medium">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
                           <p><span className="font-medium">Saturday:</span> 9:00 AM - 2:00 PM</p>
-                          <p><span className="font-medium">Sunday:</span> Closed</p>
-                          <p className="text-destructive font-medium mt-2">Emergency: 24/7 Available</p>
+                          <p><span className="font-medium">Sunday:</span> Closed</p> */}
+                          <p className="text-destructive font-medium mt-2">24/7 Available</p>
                         </div>
                       </div>
                     </div>
@@ -238,7 +238,7 @@ const Contact = () => {
             />
           </div>
           <p className="text-center text-sm text-muted-foreground mt-4">
-            Easily accessible location with ample parking available
+            Easily accessible location
           </p>
         </div>
       </section>

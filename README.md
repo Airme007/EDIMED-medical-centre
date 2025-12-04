@@ -174,6 +174,6 @@ This project is proprietary software for EDIMED Medical Centre. All rights reser
 
 ---
 
-**Built with ❤️ for EDIMED Medical Centre - Your Trusted Community Healthcare Partner**
+**Built for EDIMED Medical Centre - Your Trusted Community Healthcare Partner**
 
 *For technical support or inquiries, please contact our development team.*

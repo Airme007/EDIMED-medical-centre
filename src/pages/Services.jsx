@@ -8,7 +8,7 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: "General Consultation",
-      description: "Comprehensive physical examinations and health assessments for all ages. Our experienced doctors diagnose and treat a wide range of common medical conditions.",
+      description: "Comprehensive physical examinations and health assessments for all ages. Our experienced staff diagnose and treat a wide range of common medical conditions.",
       features: ["Health check-ups", "Diagnosis & treatment", "Preventive care", "Health counseling"],
     },
     {

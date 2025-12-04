@@ -53,7 +53,7 @@ const Index = () => {
   const stats = [
     { icon: Users, label: "Happy Patients", value: "5,000+" },
     { icon: Award, label: "Years of Service", value: "12+" },
-    { icon: Stethoscope, label: "Expert Doctors", value: "6+" },
+    { icon: Users, label: "Healthcare Staff", value: "26" },
     { icon: Clock, label: "24/7 Emergency", value: "Available" },
   ];
 
@@ -78,13 +78,13 @@ const Index = () => {
               Service To Humanity
             </h1>
             <p className="text-xl text-white/90 mb-8">
-              Comprehensive healthcare services for your whole family. Expert doctors, modern facilities, and compassionate care in your community.
+              Comprehensive healthcare services for your whole family. Expert staff, modern facilities, and compassionate care in your community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/contact">
                 <Button
                   size="lg"
-                  className="bg-white text-primary hover:bg-white/90 text-lg font-semibold"
+                  className="bg-white text-primary hover:bg-white/90 text-lg font-semibold shadow-2xl shadow-primary/50"
                 >
                   Contact Us
                 </Button>
@@ -129,7 +129,7 @@ const Index = () => {
               For over 12 years, EDIMED Medical Centre has been the trusted healthcare provider in our community. We combine advanced medical technology with compassionate care to deliver the best health outcomes for our patients.
             </p>
             <p className="text-lg text-muted-foreground">
-              Our team of experienced doctors and healthcare professionals is dedicated to providing comprehensive medical services in a comfortable, welcoming environment. Your health and well-being are at the heart of everything we do.
+              Our team of experienced staff and healthcare professionals is dedicated to providing comprehensive medical services in a comfortable, welcoming environment. Your health and well-being are at the heart of everything we do.
             </p>
           </div>
         </div>
